@@ -4,7 +4,7 @@
 
 
 	// Database connection
-	$conn = new mysqli('127.0.0.1','webform','password','webform');
+	$conn = new mysqli('34.67.14.209','webform','password');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
